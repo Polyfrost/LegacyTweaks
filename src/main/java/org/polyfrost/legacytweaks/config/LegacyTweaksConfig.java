@@ -16,4 +16,10 @@ public class LegacyTweaksConfig extends Config {
     )
     public boolean leftHanded = false;
     //#endif
+
+    @Switch(
+            title = "Natural Capes",
+            description = "Changes some physics in capes to fix rotation bugs and look more natural."
+    )
+    public boolean naturalCapes = false;
 }
