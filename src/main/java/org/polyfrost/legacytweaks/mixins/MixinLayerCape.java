@@ -114,7 +114,7 @@ public class MixinLayerCape {
         float min;
         if (legacyTweaks$entityLivingBaseIn.isSneaking()) {
             min = 8.0f;
-            //#if MC >= 1.8.9
+            //#if MC <= 1.8.9
             if ((legacyTweaks$entityLivingBaseIn.getCurrentArmor(2) != null || legacyTweaks$entityLivingBaseIn.getCurrentArmor(3) != null)) {
                 min += 3.0F;
             }
