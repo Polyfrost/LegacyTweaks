@@ -7,8 +7,11 @@
     "maxShiftBy": 5
   },
   "client": [
+    "EntityRendererMixin",
     "MixinItemRenderer",
     "MixinLayerCape",
+    "RenderFishMixin",
+    "RenderSnowballMixin",
     "compat.MixinLayerCape"
   ],
   "verbose": true,
