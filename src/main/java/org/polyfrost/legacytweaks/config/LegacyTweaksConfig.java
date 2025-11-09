@@ -8,14 +8,16 @@ import org.polyfrost.oneconfig.api.config.v1.annotations.Switch;
 public class LegacyTweaksConfig extends Config {
     public LegacyTweaksConfig() {
         super(LegacyTweaks.ID + ".json", LegacyTweaks.NAME, Category.QOL);
+
+        loadFrom("patcher.toml");
     }
 
     //#if MC == 1.8.9
     @Switch(
-            title = "Use left hand",
-            description = "Makes you left handed. (First person only)"
+            title = "Left Hand in First Person",
+            description = "Render the first-person hand on the left of the screen."
     )
-    public boolean leftHanded = false;
+    public boolean leftHandInFirstPerson = false;
     //#endif
 
     @Switch(

@@ -23,6 +23,8 @@ public class LegacyTweaks
 
     public static LegacyTweaksConfig config;
 
+    public static boolean isRenderingItemInFirstPerson;
+
     //#if FABRIC
     //$$ @Override
     //#elseif FORGE

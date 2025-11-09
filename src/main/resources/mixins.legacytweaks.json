@@ -8,9 +8,10 @@
   },
   "client": [
     "EntityRendererMixin",
-    "MixinItemRenderer",
+    "ItemRendererMixin",
     "MixinLayerCape",
     "RenderFishMixin",
+    "RenderItemMixin",
     "RenderSnowballMixin",
     "compat.MixinLayerCape"
   ],
